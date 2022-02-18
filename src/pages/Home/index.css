@@ -1,0 +1,112 @@
+.home {
+  height: 100%;
+  width: 100%;
+}
+
+.home__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__logo {
+  width: 200px;
+  height: 200px;
+}
+
+.home__title {
+  font-size: 20px;
+}
+
+.home__textfield {
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__search__btn {
+  margin-top: 20px !important;
+}
+
+table,
+td,
+tr {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td {
+  width: 100px;
+  height: 50px;
+}
+
+.date {
+  width: 200px;
+  background-color: #2d8ece;
+  font-weight: bold;
+  color: white;
+}
+
+.subject {
+  text-align: left;
+  /* background-color: #e9f4f5; */
+  /* border: 2.5px solid #639c9c; */
+  /* color: #639c9c; */
+  font-weight: bold;
+}
+
+.period {
+  width: 100px;
+  background-color: #2d8ece;
+  font-weight: bold;
+  color: white;
+}
+
+.schedule__controller {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  margin: 20px 0;
+  color: #979797;
+}
+
+.falcuty {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  width: 50%;
+}
+
+span {
+  color: black;
+  font-weight: 500;
+}
+
+.message {
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+  color: red;
+}
