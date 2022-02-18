@@ -271,6 +271,7 @@ function Home() {
 
     function handleReturn(e) {
         setId("")
+        setSchedule([])
     }
 
     return (
